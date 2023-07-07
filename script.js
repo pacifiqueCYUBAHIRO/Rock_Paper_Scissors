@@ -19,7 +19,7 @@ function getComputerChoice() {
   
   
     if (playerSelection === computerSelection.toLowerCase()) {
-      return "It's a tie!";
+      return "It's a draw!";
     } else if (
       (playerSelection === 'rock' && computerSelection === 'Scissors') ||
       (playerSelection === 'paper' && computerSelection === 'Rock') ||
@@ -61,7 +61,7 @@ function getComputerChoice() {
     } else if (playerScore < computerScore) {
       console.log('Sorry, you lose the game!');
     } else {
-      console.log("It's a tie game!");
+      console.log("It's a draw game!");
     }
   }
 
